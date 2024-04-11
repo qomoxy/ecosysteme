@@ -16,7 +16,9 @@
     </li>
     <li><a href="#règles">Règles</a></li>
     <li><a href="#Comment marche le jeu ?">Comment marche le jeu ?</a></li>
+    <li><a href="#Affichage">Affichage</a></li>
     <li><a href="#Choix">Choix</a></li>
+     <li><a href="#Fonctionnalité">Fonctionnalité</a></li>
     <li><a href="#Conclusion">Conclusion</a></li>
   </ol>
 </details>
