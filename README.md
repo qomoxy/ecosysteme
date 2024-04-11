@@ -14,8 +14,7 @@
     <li>
       <a href="#a-propos-du-projet">A propos du projet</a>
     </li>
-    <li><a href="#règles">Règles</a></li>
-    <li><a href="#Comment marche le jeu ?">Comment marche le jeu ?</a></li>
+    <li><a href="#Comment-marche-le-jeu-?">Notice</a></li>
     <li><a href="#Affichage">Affichage</a></li>
     <li><a href="#Choix">Choix</a></li>
      <li><a href="#Fonctionnalité">Fonctionnalité</a></li>
