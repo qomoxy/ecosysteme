@@ -23,25 +23,29 @@
 
 ## A propos du projet
 
-Vous avez la un projet d'Ecosysteme. Ce programme, à pour but de simuler une prairie découper en caréer d'herbe. Ou se deplace des moutons, qui broute et de déplace librement dans la prairie. Quand il rencontre un amis mouton, un petit mouton apprait pour vivre une vie. Mais les loups eux aussi sont de la partie, ils se deplace à fin de trouver de quoi se nourir, les moutons on qua bien se tenir. 
+Vous avez là un projet d'écosystème. Ce programme a pour but de simuler une prairie découpée en carrés d'herbe. Des moutons s'y déplacent, broutent et se déplacent librement dans la prairie. Lorsqu'ils rencontrent un ami mouton, un petit mouton apparaît pour vivre à son tour. Mais les loups aussi sont de la partie, ils se déplacent afin de trouver de quoi se nourrir. Les moutons ont donc intérêt à bien se tenir.
 
-Le but de ce devoirs était de s'experimenter sur la programmatioon en Python avec des Classes et differentes entites (moutons et loups). Mais aussi d'integrer plusieur petites fonctionnalité, tel que la croissance de l'herbe ou la gestion de la nourriture des animaux. 
+Le but de ce devoir était de s'expérimenter sur la programmation en Python avec des classes et différentes entités (moutons et loups). Mais aussi d'intégrer plusieurs petites fonctionnalités, telles que la croissance de l'herbe ou la gestion de la nourriture des animaux. 
 
 ## Comment marche le jeu ? 
 
-Vous allez pouvoir lancer le code et changer les paramètres suivants de la simulation, si vous le voulez sinon la simulation se lance à avec des paramètres choisis à l'avance :
+Vous allez pouvoir lancer le code et changer les paramètres suivants de la simulation, si vous le souhaitez. Sinon, la simulation se lancera avec des paramètres choisis à l'avance.
 
- * Durée de repouse de l'herbe 
+ * Durée de repousse de l'herbe
  * Hauteur maximale de l'herbe
- * Taille de la prairie (LxL)
+ * Taille de la prairie (L x L)
  * Le nombre de moutons
  * Le nombre de loups
- * Et leurs stats
+ * Et leurs statistiques
 
-Après avoir remplie vos paramètre custom, la prairie va être générée avec l'herbe et les moutons et les loups. Chaque tour la prairie va être mise à jour, l'herbe pousse d'un le mouton pourront se déplacer librement dans la prairie pour brouter l'herbe 
-si elle est assez grande, se reproduire si deux moutons sont sur la même case. Et les loups pourront chasser les moutons a faim de manger de se reproduire. S'il ne mange pas assez ils peuvent mourir de faim.
+Après avoir rempli vos paramètres personnalisés, la prairie va être générée avec l'herbe, les moutons et les loups. Chaque tour, la prairie va être mise à jour :
 
-Tout se deroule dans l'interpreteur, dans la console. 
+ * L'herbe pousse d'un cran.
+ * Les moutons pourront se déplacer librement dans la prairie pour brouter l'herbe si elle est assez grande.
+ * Ils pourront se reproduire si deux moutons sont sur la même case.
+ * Les loups pourront chasser les moutons pour se nourrir et se reproduire. S'ils ne mangent pas assez, ils peuvent mourir de faim.
+
+Tout se déroule dans l'interpréteur, dans la console.
 
 ## Affichage
 
@@ -54,18 +58,23 @@ Vous pouvez voir l'état de la population de mouton et de loup de la prairie.
 
 ## Choix
 
-J'ai choisi de découper le projet en plusieurs classes, pour une meilleur lisibilité du code. J'ai donc crée une classe Prairie, qui contient les moutons et les loups. J'ai aussi crée une classe Animal, qui contient les moutons et les loups. J'ai aussi crée une classe Herbe, qui contient les moutons et les loups.
-Chaque classe à ses propres méthodes et attributs, pour une meilleur gestion des entités. Le code est donc plus lisible et plus facile à comprendre. 
-Les programmes sont divisés en plusieurs fichiers, pour une meilleur gestion des classes et des fonctions, que j'ai rangé dans des folders pour une meilleur organisation.
+J'ai choisi de découper le projet en plusieurs classes pour une meilleure lisibilité du code. J'ai donc créé :
+
+ * Une classe Prairie qui contient les moutons et les loups.
+ * Une classe Animal qui hérite de la classe Prairie et qui est donc commune aux moutons et aux loups.
+ * Une classe Herbe qui n'a pas de lien direct avec les moutons et les loups et qui pourrait être gérée différemment.
+
+Chaque classe a ses propres méthodes et attributs pour une meilleure gestion des entités. Cela rend le code plus lisible et plus facile à comprendre.
+
+Les programmes sont divisés en plusieurs fichiers pour une meilleure gestion des classes et des fonctions. Je les ai rangés dans des dossiers pour une meilleure organisation.
 
 ## Fonctionnalité
 
-Le programme gére la croissance de l'herbe, la reproduction des moutons et des loups, la chasse des loups, la mort des loups et des moutons, la faim des loups, la gestion de la nourriture des moutons et des loups, la gestion de la prairie, la gestion des déplacements des moutons et des loups, la gestion de la population des moutons et des loups, la gestion de la taille de la prairie, la gestion des paramètres de la simulation, la gestion de l'affichage de la prairie, la gestion de l'affichage des moutons et des loups, la gestion de l'affichage des statistiques de la simulation, la gestion de l'affichage des légendes de la simulation, la gestion de l'affichage des messages de la simulation, la gestion de l'affichage des erreurs de la simulation, la gestion de l'affichage des logs de la simulation, la gestion de l'affichage des warnings de la simulation, la gestion de l'affichage des informations de la simulation, la gestion de l'affichage des paramètres de la simulation, la gestion de l'affichage des options de la simulation, la gestion de l'affichage des choix de la simulation, la gestion de l'affichage des actions
-Chaque tour commence, l'herbe pousse, les moutons et les loups se déplacent, les moutons et les loups se reproduisent, les loups chassent les moutons, les loups meurent de faim, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons et les loups meurent, les moutons et les loups se reproduisent, les moutons et les loups se déplacent, les moutons et les loups mangent, les moutons
+Cette simulation gère les entités par rapport à leur nourriture et leur position. Chaque entité cherche à survivre en cherchant à manger à chaque tour et se déplace dans cet environnement restreint. L'herbe pousse et suit une croissance continue.
 
-L'ensemble des programmes est codé en Python 3.9.6. J'ai utilisé les bibliothéque suivante : random, time, os, sys. 
+L'ensemble du programme est codé en Python 3.9.6. J'ai utilisé les bibliothèques suivantes : random, time, os et sys.
 
 ## Conclusion
+Ce projet m'a permis de m'expérimenter sur la programmation en Python avec des classes et différentes entités (moutons et loups). J'ai également pu intégrer plusieurs petites fonctionnalités, telles que la croissance de l'herbe ou la gestion de la nourriture des animaux. Cela m'a permis d'améliorer mes compétences en programmation et en algorithmique.
 
-Ce projet m'a permis de m'experimenter sur la programmation en Python avec des Classes et differentes entites (moutons et loups). Mais aussi d'integrer plusieur petites fonctionnalité, tel que la croissance de l'herbe ou la gestion de la nourriture des animaux. J'ai pu améliorer mes compétences en programmation et en algorithmique. J'ai pu apprendre à gérer des entités, des classes, des fonctions, des méthodes, des attributs, des paramètres, des arguments, des boucles, des conditions, des exceptions, des erreurs, des logs, des warnings, des informations, des options, des choix, des actions, des messages, des légendes, des statistiques, des paramètres, des options, des choix, des actions, des déplacements, des reproductions, des chasses, des morts, des faims, des nourritures, des prairies, des moutons, des loups, des herbes
-
+Ce projet nous a montré l'envergure du développement d'un projet conséquent et les multiples améliorations possibles, telles que l'affichage avec des dessins en 2D, et la création de graphiques pour visualiser l'évolution des populations et des événements importants, comme la première naissance.
