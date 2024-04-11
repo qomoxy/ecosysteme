@@ -62,7 +62,7 @@ class Loup:
         """
         self.update_energie(-self.__faim)
 
-    def mange(self, troupeau: moutons.Troupeau) -> bool:
+    def mange(self, troupeau: moutons.Troupeau) -> None:
         """
         Sortie : Retourne True si le loup a mangé un mouton, False sinon.
         :param troupeau: Le troupeau de mouton.
@@ -181,5 +181,3 @@ class Meute:
         for loup in self.__loups_lst:
             res += str(loup) + "\n"
         return res
-
-
